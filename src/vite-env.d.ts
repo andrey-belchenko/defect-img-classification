@@ -6,3 +6,8 @@ declare module '*.vue' {
   export default component
 }
 
+declare module '*.csv?raw' {
+  const content: string
+  export default content
+}
+
